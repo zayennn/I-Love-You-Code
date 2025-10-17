@@ -127,9 +127,8 @@ const crtLoveTl = () => {
       delay: 4050,
       onUpdate: (progress) => {
         [el.i, el.l, el.o, el.v, el.e, el.y, el.o2, el.u].forEach((el) => {
-          el.style = `transform: translate(0px, 0px) rotate(0deg) skew(0deg, 0deg) scale(1, 1); opacity: ${
-            1 * progress
-          };`;
+          el.style = `transform: translate(0px, 0px) rotate(0deg) skew(0deg, 0deg) scale(1, 1); opacity: ${1 * progress
+            };`;
         });
       },
       onComplete: () => {
