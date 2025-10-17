@@ -16,8 +16,8 @@ body {
   font-size: 62.5%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-@media screen and (max-width: 520px) {
-}
+
+@media screen and (max-width: 520px) {}
 
 .container {
   width: 50rem;
@@ -56,6 +56,7 @@ body {
   text-decoration: underline;
   cursor: default;
 }
+
 .sound--off {
   text-decoration: line-through;
 }
