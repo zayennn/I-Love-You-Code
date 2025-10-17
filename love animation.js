@@ -237,7 +237,6 @@ const crtLoveTl = () => {
     }),
 
     new mojs.Html({
-      // I LO[V]E YOU
       ...opts,
       el: el.v,
       x: { 0: 3 },
