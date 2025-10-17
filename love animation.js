@@ -156,7 +156,7 @@ const crtLoveTl = () => {
         x: { to: 52 + 54 + 60 },
       })
       .then({
-        duration: 150, // 3550
+        duration: 150,
         easing,
         x: { to: 52 + 54 + 60 + 10 },
       })
