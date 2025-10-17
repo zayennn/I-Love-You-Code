@@ -281,7 +281,6 @@ const crtLoveTl = () => {
       }),
 
     new mojs.Html({
-      // I LOVE YO[U]
       ...opts,
       el: el.u,
       x: { 0: -32 },
@@ -355,12 +354,12 @@ const crtLoveTl = () => {
         easing: easingOut,
       })
       .then({
-        duration: 125, // 3725
+        duration: 125,
         scale: { to: 0.85 },
         easing: easingOut,
       })
       .then({
-        duration: 125, // 3850
+        duration: 125,
       })
       .then({
         duration: 350,
